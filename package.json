@@ -1,0 +1,23 @@
+{
+  "name": "healthy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "deploy": "flyctl deploy",
+    "start:dev": "nodemon index.ts",
+    "start": "ts-node index.ts"
+  },
+  "dependencies": {
+    "@sinclair/typebox": "^0.23.2",
+    "@types/node": "^17.0.10",
+    "axios": "^0.25.0",
+    "fastify": "^3.27.0",
+    "fastify-custom-healthcheck": "^2.0.0",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.6.0-dev.20220121"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
